@@ -1,13 +1,14 @@
 import java.util.Random;
 public class Main {
     public static void main(String[] args) {
-        int[] arr= constructArray(20);
+        int[] arr= constructArray(15);
         System.out.println("Before sorting: ");
         printArray(arr);
 
         System.out.println("After sorting: ");
         //InsertionSort.sort(arr);
-        SelectionSort.sort(arr);
+        //SelectionSort.sort(arr);
+        Mergesort.sort(arr,0,arr.length-1);
         printArray(arr);
 
     }
