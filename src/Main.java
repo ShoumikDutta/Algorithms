@@ -8,7 +8,8 @@ public class Main {
         System.out.println("After sorting: ");
         //InsertionSort.sort(arr);
         //SelectionSort.sort(arr);
-        Mergesort.sort(arr,0,arr.length-1);
+        //Mergesort.sort(arr,0,arr.length-1);
+        QuickSort.sort(arr,0,arr.length-1);
         printArray(arr);
 
     }
